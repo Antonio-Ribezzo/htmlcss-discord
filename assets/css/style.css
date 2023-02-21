@@ -7,28 +7,62 @@
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
 }
 
-.flex{
+h1{
+    font-size: 50px;
+    font-weight:bolder;
+    margin: 20px 0;
+}
+
+p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* utility */
+.conteiner-center{
+    margin: auto;
+    width: 70%;
+}
+
+.flex-row{
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 20px;
+}
+
+.button:hover{
+    background-color: #f2f2f2c4;
+}
+
+/* header */
 .conteiner1-header{
-    background-color: #b9dbeb;
-    height: 50px;
-    padding: 10px;
+    background-color: #3161e0;
+    padding: 10px 0;
 }
 .conteiner-nav{
-    flex-basis: 70%;
+    flex-basis: 100%;
+    justify-content: center;
 }
 
 .conteiner-nav div{
     flex-basis: 25%;
-    background-color: #dfac34;
-    border: 2px dotted black;
+    background-color: #3161e0;
     display: flex;
     align-items: center;
     padding: 0 10px;
@@ -36,27 +70,51 @@ a{
 
 .conteiner-nav nav{
     flex-basis: 50%;
-    background-color: #dfac34;
-    border: 2px dotted black;
+    justify-content:space-between;
+    background-color: #3161e0;
     align-items: center;
 }
 
-#login{
+#accedi{
     justify-content: end;
 }
 
 .conteiner2-header{
-    background-color: #111098;
-    height: 400px;
-    padding: 40px;
+    height: 550px;
+    background-color: #3161e0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding: 100px 0;
 }
 
-.conteiner2-header div{
-    width: 50%;
-    background-color: #f09ef3;
-    border: 2px dotted black;
+
+.conteiner2-header>div{
+    width: 40%;
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
+.conteiner-button a{
+    margin: 20px 20px;
+    font-size: 18px;
+}
+
+#button-browser{
+    background-color: #272c30;
+    color: white;
+}
+
+#button-browser:hover{
+    background-color: #f2f2f239;
+}
+
+
+
+/* main */
 .backwhite{
     background-color: white;
     height: 400px;
@@ -103,6 +161,7 @@ svg{
     border: 2px dotted black;
 }
 
+/* footer */
 footer{
     background-color: #272c30;
 }

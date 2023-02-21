@@ -11,6 +11,14 @@ a{
     color: white;
 }
 
+span{
+    color: white;
+}
+
+i{
+    color: white;
+}
+
 h1{
     font-size: 50px;
     font-weight:bolder;
@@ -24,8 +32,33 @@ h2{
 }
 
 h3{
+    font-size: 35px;
+    font-weight:bolder;
+    color: #5b6da7;
+    margin-bottom: 20px;
+}
+
+h4{
     font-size: 30px;
     font-weight:bolder;
+}
+
+h5{
+    font-size: 18px;
+    font-weight:bolder;
+    color: #5b6da7;
+}
+
+ul{
+    list-style:inside;
+    margin-top: 10px;
+}
+
+ul li{
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
 }
 
 p{
@@ -52,7 +85,7 @@ p{
     background-color: white;
     color: black;
     border: none;
-    border-radius: 16px;
+    border-radius: 20px;
     padding: 10px 20px;
 }
 
@@ -160,7 +193,7 @@ p{
 .last-section{
     text-align: center;
 }
-.last-section h3{
+.last-section h4{
     margin-bottom: 50px;
 }
 
@@ -173,23 +206,27 @@ p{
     background-color: #8ea1e187;
 }
 
-/* footer */
+/* footer sezione 1 */
 footer{
     background-color: #272c30;
     padding: 50px 0;
 }
 
-#logosocial{
-    background-color: #f09590;
+#boxsocial{
     flex-basis: 30%;
-    border: 2px dotted black;
-    height: 200px;
+}
+
+#boxsocial span, i {
+    margin: 20px 0;
+}
+
+#loghi-social{
+    width: 60%;
+    justify-content: space-between;
 }
 
 .section-footer{
     flex-basis: calc(70% / 4);
-    background-color: #4ab0b5;
-    border: 2px dotted white;
 }
 
 hr{
@@ -198,6 +235,7 @@ hr{
     margin: 30px auto;
 }
 
+/* footer sezione 2 */
 .conteiner-footer{
     flex-basis: 70%;
     display: flex;
@@ -205,12 +243,11 @@ hr{
     align-items: center;
 }
 
-#button{
-    background-color: #f4c7cd;
-    border: 2px dotted black;
-}
-
-#registrati{
+#registrati-button{
     background-color: #8ea1e1;
     color: white;
+}
+
+#registrati-button:hover{
+    background-color: #8ea1e18b;
 }

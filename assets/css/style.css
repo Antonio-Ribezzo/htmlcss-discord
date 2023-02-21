@@ -1,0 +1,154 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.conteiner1-header{
+    background-color: #b9dbeb;
+    height: 50px;
+    padding: 10px;
+}
+.conteiner-nav{
+    flex-basis: 70%;
+}
+
+.conteiner-nav div{
+    flex-basis: 25%;
+    background-color: #dfac34;
+    border: 2px dotted black;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.conteiner-nav nav{
+    flex-basis: 50%;
+    background-color: #dfac34;
+    border: 2px dotted black;
+    align-items: center;
+}
+
+#login{
+    justify-content: end;
+}
+
+.conteiner2-header{
+    background-color: #111098;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteiner2-header div{
+    width: 50%;
+    background-color: #f09ef3;
+    border: 2px dotted black;
+}
+
+.backwhite{
+    background-color: white;
+    height: 400px;
+    padding: 10px;
+}
+
+section>div{
+    width: 70%;
+    margin: 20px 0;
+    display: flex;
+}
+
+.big-conteiner{
+    flex-basis: 60%;
+    background-color: #3f9bff;
+    border: 2px dotted black;
+}
+
+.small-conteiner{
+    flex-basis: 40%;
+    background-color: #ffcdd6;
+    border: 2px dotted black;
+}
+
+svg{
+    display: block;
+}
+
+.backgrey{
+    background-color: #f6f6f6;
+    height: 400px;
+    padding: 10px;
+}
+
+.backgrey2{
+    background-color: #f6f6f6;
+    height: 800px;
+    padding: 10px;
+}
+
+#last-image{
+    flex-basis: 100%;
+    background-color: green;
+    border: 2px dotted black;
+}
+
+footer{
+    background-color: #272c30;
+}
+
+.backfooter1{
+    background-color: #272c30;
+    height: 600px;
+    padding: 5px;
+}
+
+#logosocial{
+    background-color: #f09590;
+    flex-basis: 30%;
+    border: 2px dotted black;
+}
+
+.section-footer{
+    flex-basis: calc(70% / 4);
+    background-color: #4ab0b5;
+    border: 2px dotted white;
+}
+
+hr{
+    color: white;
+}
+
+.backfooter2{
+    background-color: #272c30;
+    height: 200px;
+    padding: 10px;
+}
+
+.conteiner-footer{
+    flex-basis: 70%;
+    background-color: #97f2da;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    background-color: #f4c7cd;
+    border: 2px dotted black;
+}
+
+#button{
+    background-color: #f4c7cd;
+    border: 2px dotted black;
+}

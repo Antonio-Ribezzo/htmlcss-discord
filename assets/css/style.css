@@ -17,9 +17,14 @@ h1{
     margin: 20px 0;
 }
 
-p{
-    font-size: 18px;
+h2{
+    font-size: 45px;
+    font-weight:bolder;
     margin: 20px 0;
+}
+
+p{
+    font-size: 20px;
 }
 
 /* utility */
@@ -87,6 +92,10 @@ p{
     padding: 100px 0;
 }
 
+.conteiner2-header p{
+    margin: 20px 0;
+    color: white;
+}
 
 .conteiner2-header>div{
     width: 40%;
@@ -117,30 +126,33 @@ p{
 /* main */
 .backwhite{
     background-color: white;
-    height: 400px;
-    padding: 10px;
-}
-
-section>div{
-    width: 70%;
-    margin: 20px 0;
-    display: flex;
+    /* height: 400px; */
+    padding: 100px 10px;
 }
 
 .big-conteiner{
     flex-basis: 60%;
-    background-color: #3f9bff;
-    border: 2px dotted black;
+    justify-content: flex-start;
+    /* background-color: #3f9bff; */
+    /* border: 2px dotted black; */
+    /* height: 200px; */
+    object-fit: fill;
 }
 
 .small-conteiner{
     flex-basis: 40%;
-    background-color: #ffcdd6;
-    border: 2px dotted black;
+    /* background-color: #ffcdd6; */
+    /* border: 2px dotted black; */
+    padding: 20px 100px;
+    color: #24282b;
 }
 
-svg{
-    display: block;
+.small-conteiener h2, p{
+    color: #24282b;
+}
+
+.wave-down{
+    transform: rotate(180deg);
 }
 
 .backgrey{

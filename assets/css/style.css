@@ -126,23 +126,21 @@ p{
 /* main */
 .backwhite{
     background-color: white;
-    /* height: 400px; */
+    padding: 100px 10px;
+}
+
+.backgrey{
+    background-color: #f6f6f6;
     padding: 100px 10px;
 }
 
 .big-conteiner{
     flex-basis: 60%;
     justify-content: flex-start;
-    /* background-color: #3f9bff; */
-    /* border: 2px dotted black; */
-    /* height: 200px; */
-    object-fit: fill;
 }
 
 .small-conteiner{
     flex-basis: 40%;
-    /* background-color: #ffcdd6; */
-    /* border: 2px dotted black; */
     padding: 20px 100px;
     color: #24282b;
 }
@@ -155,22 +153,8 @@ p{
     transform: rotate(180deg);
 }
 
-.backgrey{
-    background-color: #f6f6f6;
-    height: 400px;
-    padding: 10px;
-}
-
-.backgrey2{
-    background-color: #f6f6f6;
-    height: 800px;
-    padding: 10px;
-}
-
-#last-image{
-    flex-basis: 100%;
-    background-color: green;
-    border: 2px dotted black;
+.last-section{
+    text-align: center;
 }
 
 /* footer */

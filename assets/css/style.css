@@ -123,9 +123,10 @@ p{
 }
 
 .conteiner2-header{
-    height: 550px;
     background-color: #3161e0;
     background-image: url(../img/jumbo.png);
+    background-position: center top;
+    background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0;
 }
@@ -193,6 +194,17 @@ p{
 .last-section{
     text-align: center;
 }
+
+.star{
+    width: 50%;
+    margin: auto;
+    padding: 15px 20px;
+    background-image: url('../img/stars.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .last-section h4{
     margin-bottom: 50px;
 }
